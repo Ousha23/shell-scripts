@@ -1,31 +1,24 @@
 # shell-scripts
 
+Bienvenue dans ce repository dédié aux scripts Shell que je développe pendant mon temps libre. Ce projet est une collection de scripts utiles qui automatisent diverses tâches et simplifient le travail sur des systèmes Unix/Linux.
 
-## Script de tri des fichiers par extension
+## Contenu du dépôt
 
-Ce script shell permet de trier les fichiers présents dans un dossier donné ainsi que dans ses sous-dossiers par extension, puis de les copier dans des dossiers séparés pour chaque type d'extension.
+Ce dépôt contient différents scripts Shell qui peuvent vous aider dans des tâches telles que :
 
-### Fonctionnement
+- Tri de fichiers par extension.
+- Gestion des fichiers et des dossiers.
+- Automatisation de tâches répétitives.
+- Outils pour faciliter le développement et la gestion de systèmes.
 
-1. **Prérequis** : 
-   - Un système Unix/Linux avec bash installé.
+### Scripts Inclus
 
-2. **Utilisation** :
-   - Clonez ou téléchargez le script `sort_files.sh`.
-   - Rendez le script exécutable avec la commande :
-     ```bash
-     chmod +x sort_files.sh
-     ```
-   - Exécutez le script en fournissant le chemin du dossier source comme argument :
-     ```bash
-     ./sort_files.sh <chemin_du_dossier>
-     ```
-   - Par exemple :
-     ```bash
-     ./sort_files.sh /path/to/your/directory
-     ```
+- `trie-fichiers`: Un script qui trie les fichiers d'un dossier et de ses sous-dossiers par extension et les copie dans des dossiers séparés.
 
-3. **Résultat** :
-   - Un nouveau dossier nommé `sorted_files` sera créé à l'intérieur du dossier source.
-   - Dans `sorted_files`, des sous-dossiers seront créés pour chaque extension trouvée (ex. `.txt`, `.jpg`, etc.) contenant les fichiers correspondants.
 
+## Installation
+
+Aucune installation spéciale n'est requise. Clonez simplement le dépôt sur votre machine locale :
+
+## Remerciements
+Je tiens à remercier la communauté open source pour son soutien et ses contributions, qui m'ont aidé à apprendre et à développer mes compétences en scripting Shell.
